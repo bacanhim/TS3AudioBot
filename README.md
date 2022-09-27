@@ -14,7 +14,7 @@ services:
       - SERVER_IP=localhost
     #   - SERVER_PORT= *optional 
     #   - SERVER_PASSWORD= *optional
-      - BOT_IDENTITY=MCkDAgbAAgEgAiB9Wm4XsCFB8cKVJg8D/e5cbvm2+9mdUuBElxi+zABbww==
+      - BOT_IDENTITY=uKAP2ngkcvaWOLwclJje0NdDEug=
       - YOUTUBE_SEARCH=ys
     #   - WEB_PORT=58913 *optional
       - ADMIN_GROUP=9
@@ -35,6 +35,6 @@ services:
 | SERVER_PASSWORD  |                                                             | Server password in case it has. By default it has no password.                                                                                           |
 | ADMIN_GROUP      |                                                             | Specify admin group for them to gave full access to bot features.                                                                                        |
 | USER_GROUP       |                                                             | Specify user group for them to gave access only to !add and !ys by default, read the Splamy docs to change this behavior according to your preference.   |
-| BOT_IDENTITY     | MCkDAgbAAgEgAiB9Wm4XsCFB8cKVJg8D/e5cbvm2+9mdUuBElxi+zABbww==| You should change this, just in case no one                                                                                                              |
+| BOT_IDENTITY     | uKAP2ngkcvaWOLwclJje0NdDEug=| You should change this, just in case no one                                                                                                              |
 | YOUTUBE_SEARCH   | ys                                                          | !ys enables you to search on youtube a song and plays it. you can set this whatever you like, but don't use exclamation point. just the word. Example: ys|
 | WEB_PORT         | 58913                                                       | Web port for you to control the bot in case you want it.                                                                                                 |
