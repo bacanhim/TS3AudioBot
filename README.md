@@ -1,6 +1,12 @@
 # TS3AudioBot
 A docker container for devices running arm64 OS (like Raspberry Pi 4). It contains a pre-configured Teamspeak Audio Bot built by [@Splamy](https://www.github.com/Splamy/TS3AudioBot/), and i've configured to my personal use, but there's an env table that you can use to personalize to your case.
 
+## Building
+To build it, just run the following command inside the folder.
+```shell
+docker build --rm -f "Dockerfile" -t ts3audiobot:latest "." 
+```
+
 ## Usage/Examples
 It's recommended to use docker-compose so it's easier to set env variables.
 ```yml
