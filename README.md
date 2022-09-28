@@ -42,7 +42,7 @@ services:
 ## Environment variables
 
 | ENV | default | description |
-|---|---|---|
+|:---:|:---:|:---:|
 | BOT_NAME | TS3AudioBot | Change it according to your preference. |
 | SERVER_IP | localhost | Set the server ip to connect to. |
 | SERVER_PORT | 9987 | By default most Teamspeak servers use 9987, change it only if you know that is different. |
