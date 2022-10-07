@@ -15,9 +15,10 @@ WORKDIR /TS3AudioBot
 # COPY CONFIG FILES TO WORKING DIR
 COPY data/ /TS3AudioBot/
 
-# INSTALL ALL NEEDED PACKAGES AND BOT BINARIES 
+# INSTALL ALL NEEDED PACKAGES AND BOT BINARIES
 RUN apt update && \
-    apt install wget libopus-dev ffmpeg youtube-dl -y && \
+    apt install wget libopus-dev ffmpeg python3-pip -y && \
+    pip install --upgrade youtube_dl &&\
     wget https://splamy.de/api/nightly/projects/ts3ab/master_linux_arm64/download && \
     tar -xf download && rm -r download && \
     chown -R root:root /TS3AudioBot &&\
