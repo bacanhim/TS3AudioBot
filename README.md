@@ -1,6 +1,6 @@
 # TS3AudioBot
 
-[![Docker](https://img.shields.io/badge/Docker-0.0.1-0db7ed.svg)](https://hub.docker.com/r/bacanhim/ts3audiobot)
+[![Docker](https://img.shields.io/badge/Docker-1.0.1-0db7ed.svg)](https://hub.docker.com/r/bacanhim/ts3audiobot)
 
 The docker container it's for devices running arm64 OS (like Raspberry Pi 4). It contains a pre-configured Teamspeak Audio Bot built by [@Splamy](https://www.github.com/Splamy/TS3AudioBot/), and i've configured it to my personal use, but there's an env table that you can use to personalize to your case.
 If you get any errors, open a [issue](https://github.com/bacanhim/TS3AudioBot/issues). I'll try to help ASAP.
