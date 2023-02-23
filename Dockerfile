@@ -18,7 +18,8 @@ COPY data/ /TS3AudioBot/
 # INSTALL ALL NEEDED PACKAGES AND BOT BINARIES
 RUN apt update && \
     apt install wget libopus-dev ffmpeg python3-pip -y && \
-    pip install --upgrade youtube_dl &&\
+    pip install --upgrade yt_dlp &&\
+    ln /usr/local/bin/yt-dlp /usr/local/bin/youtube-dl &&\
     wget https://splamy.de/api/nightly/projects/ts3ab/master_linux_arm64/download && \
     tar -xf download && rm -r download && \
     chown -R root:root /TS3AudioBot &&\
